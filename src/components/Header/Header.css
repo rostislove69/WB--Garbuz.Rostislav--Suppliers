@@ -1,0 +1,113 @@
+.header {
+  display: flex;
+}
+
+.header__logo {
+  width: 70px;
+  margin: 10px 0 0 10px;
+}
+
+.header__nav-menu {
+  margin: 25px 0 0 37px;
+  background-color: rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  height: 38px;
+}
+
+.header__nav-menu button {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 36px;
+  padding: 9px;
+  margin-right: 3px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125%;
+  color: #fff;
+}
+
+.header__nav-menu .active {
+  background-color: var(--colors-cloudy-solid-500);
+  font-weight: 700;
+  color: var(--colors-ashy-solid-500);
+}
+
+.header__nav-menu button:hover {
+  background-color: var(--colors-cloudy-alpha-008);
+}
+
+.header__nav-menu .active:hover {
+  background-color: var(--colors-cloudy-solid-500);
+}
+
+.header__burger-menu {
+  background: none;
+  border: none;
+  background-image: url(../../images/icon-burger-menu.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 36px;
+  height: 36px;
+  display: none;
+  cursor: pointer;
+  margin: -6px 0 0 -2px;
+}
+
+.header__logo-mobile {
+  display: none;
+  margin: 0 0 0 39px;
+}
+
+.header__buttons-block {
+  display: none;
+  margin: -7px 0 0 0;
+}
+
+.header__history-button {
+  background: none;
+  border: none;
+  background-image: url(../../images/icon-history.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+}
+
+.header__doc-button {
+  background: none;
+  border: none;
+  background-image: url(../../images/icon-doc.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 960px) {
+  .header {
+    padding: 18px 16px 9px;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-bottom: 1px solid #424146;
+  }
+  .header__burger-menu {
+    display: block;
+  }
+  .header__logo {
+    display: none;
+  }
+  .header__logo-mobile {
+    display: block;
+  }
+  .header__nav-menu {
+    display: none;
+  }
+  .header__buttons-block {
+    display: block;
+  }
+}

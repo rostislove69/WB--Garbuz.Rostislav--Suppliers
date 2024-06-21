@@ -1,0 +1,120 @@
+{
+  "supplies": [
+    {
+      "id": "27cc",
+      "data": {
+        "number": 79,
+        "date": "28.06.2024",
+        "city": "Москва",
+        "quantity": "487",
+        "deliveryType": "Короб",
+        "stock": "Черная Грязь",
+        "status": "В пути"
+      }
+    },
+    {
+      "id": "7d76",
+      "data": {
+        "number": 80,
+        "date": "26.06.2024",
+        "city": "Москва",
+        "quantity": "895",
+        "deliveryType": "Монопаллета",
+        "stock": "Вёшки",
+        "status": "В пути"
+      }
+    },
+    {
+      "id": "6256",
+      "data": {
+        "number": 81,
+        "date": "26.06.2024",
+        "city": "Псков",
+        "quantity": "748",
+        "deliveryType": "Короб",
+        "stock": "Cклад",
+        "status": "Задерживается"
+      }
+    },
+    {
+      "id": "a4b9",
+      "data": {
+        "number": 82,
+        "date": "25.06.2024",
+        "city": "Тверь",
+        "quantity": "10",
+        "deliveryType": "Короб",
+        "stock": "Cклад",
+        "status": "В пути"
+      }
+    },
+    {
+      "id": "c5e3",
+      "data": {
+        "number": 83,
+        "date": "24.06.2024",
+        "city": "Нижний Новгород",
+        "quantity": "154",
+        "deliveryType": "Короб",
+        "stock": "Cклад",
+        "status": "Задерживается"
+      }
+    },
+    {
+      "id": "136e",
+      "data": {
+        "number": 84,
+        "date": "22.06.2024",
+        "city": "Абакан",
+        "quantity": "587",
+        "deliveryType": "Короб",
+        "stock": "СЦ Абакан",
+        "status": "В пути"
+      }
+    },
+    {
+      "id": "b2a6",
+      "data": {
+        "number": 85,
+        "date": "22.06.2024",
+        "city": "Москва",
+        "quantity": "238",
+        "deliveryType": "Короб",
+        "stock": "Внуково",
+        "status": "Задерживается"
+      }
+    },
+    {
+      "id": "6496",
+      "data": {
+        "number": 86,
+        "date": "21.06.2024",
+        "city": "Москва",
+        "quantity": "1187",
+        "deliveryType": "Короб",
+        "stock": "Белая дача",
+        "status": "В пути"
+      }
+    },
+    {
+      "id": "c3d6",
+      "data": {
+        "number": 87,
+        "date": "09.06.2024",
+        "city": "Москва",
+        "quantity": "84",
+        "deliveryType": "Короб",
+        "stock": "Электросталь",
+        "status": "В пути"
+      }
+    }
+  ],
+  "sum": [
+    {
+      "id": "0",
+      "data": {
+        "sum": 87
+      }
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+.popup__form-block {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.popup__block-title {
+  padding: 0 0 6px 5px;
+  font-size: 13px;
+  color: var(--colors-cloudy-solid-500);
+  opacity: 0.4;
+  letter-spacing: 0.4px;
+}
+
+.popup__input {
+  outline: none;
+  box-sizing: border-box;
+  height: 44px;
+  background-color: var(--colors-cloudy-alpha-008);
+  border: none;
+  border-radius: 8px;
+  padding: 10px 10px 5px 15px;
+  color: var(--colors-cloudy-solid-500);
+}
+
+.popup__input::placeholder {
+  color: var(--colors-cloudy-solid-500);
+}
+
+.popup__input:hover,
+.popup__input:focus {
+  background-color: var(--colors-cloudy-alpha-024);
+}
+
+.popup__quantity {
+  position: absolute;
+  top: 35px;
+  right: 17px;
+  font-size: 16px;
+  color: var(--colors-cloudy-solid-500);
+}
+
+.popup__calendar-button {
+  position: absolute;
+  right: 15px;
+  top: 30px;
+  background: none;
+  border: none;
+  background-image: url(../../images/icon-calendar.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+  .popup__form-block {
+    margin-bottom: 21px;
+  }
+
+  .popup__calendar-button {
+    top: 34px;
+    right: 16px;
+  }
+}

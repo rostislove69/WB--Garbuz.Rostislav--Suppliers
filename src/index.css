@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "ALS Hauss VF";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./vendor/fonts/ALSHauss-Regular.ttf") format("ttf"),
+    url("./vendor/fonts/ALSHauss-Regular.woff") format("woff");
+}
+
+@import url(./vendor/normalize.css);
+
+:root {
+  --colors-cloudy-solid-500: #fff;
+  --colors-cloudy-alpha-008: rgba(255, 255, 255, 0.08);
+  --colors-cloudy-alpha-024: rgba(255, 255, 255, 0.24);
+  --colors-primary-solid-500: #6366f1;
+  --colors-cloudy-alpha-040: rgba(255, 255, 255, 0.4);
+  --colors-primary-solid-300: #fdb172;
+  --colors-ashy-solid-500: #2d2c32;
+  --colors-ashy-solid-300: #fdb172;
+  --colors-ashy-alpha-008: rgba(255, 255, 255, 0.08);
+  --colors-ashy-alpha-24: rgba(255, 255, 255, 0.24);
+  --colors-primary-solid-800: #9a4a12;
+  --colors-primary-solid-600: #4649e5;
+  --colors-success-solid-500: #22c55e;
+  --colors-success-solid-900: #14532b;
+  --colors-success-solid-300: #85ef89;
+  --colors-warning-solid-300: #fdb172;
+  --colors-warning-solid-500: #f97316;
+  --colors-warning-solid-900: #7c3d12;
+}
+
+* {
+  font-family: ALS Hauss VF;
+}
+
+body {
+  background: var(--colors-ashy-solid-500);
+  position: relative;
+  max-width: 1400px;
+  min-width: 320px;
+  margin: 0 auto;
+}
